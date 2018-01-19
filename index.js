@@ -18,8 +18,8 @@ const driversByRevenue = function (drivers) {
     });
 }
 
-const driversByName() = function(drivers) {
-  return drivers.slice().sort(function(a, b) {
+const driversByName = function (drivers) {
+  return drivers.slice().sort(function(a,b) {
     return a.name > b.name;
   });
 }
